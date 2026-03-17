@@ -30,7 +30,7 @@ export default function ClankAvatar({ operatingMode, systemIntegrity }: ClankAva
   };
 
   const getGlowColor = () => {
-    if (systemIntegrity >= 80) return 'rgba(57, 255, 20, 0.4)';
+    if (systemIntegrity >= 80) return 'rgba(192, 192, 200, 0.4)';
     if (systemIntegrity >= 60) return 'rgba(255, 217, 61, 0.4)';
     if (systemIntegrity >= 40) return 'rgba(255, 165, 0, 0.4)';
     if (systemIntegrity >= 20) return 'rgba(255, 107, 53, 0.4)';
@@ -38,7 +38,7 @@ export default function ClankAvatar({ operatingMode, systemIntegrity }: ClankAva
   };
 
   const getBorderColor = () => {
-    if (systemIntegrity >= 80) return '#39FF14';
+    if (systemIntegrity >= 80) return '#C0C0C8';
     if (systemIntegrity >= 60) return '#FFD93D';
     if (systemIntegrity >= 40) return '#FFA500';
     if (systemIntegrity >= 20) return '#FF6B35';

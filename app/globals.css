@@ -5,27 +5,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Space+Mono:wght@400;700&display=swap');
 
 :root {
-  --neon: #39FF14;
-  --neon-light: #66FF44;
-  --neon-dark: #2BCC10;
-  --neon-glow: rgba(57, 255, 20, 0.4);
+  --neon: #C0C0C8;
+  --neon-light: #D8D8E0;
+  --neon-dark: #9898A8;
+  --neon-glow: rgba(192, 192, 200, 0.3);
 
   --silver: #B8B9BD;
   --silver-dark: #3A3A4A;
   --chassis: #1A1A2E;
 
-  --bg-dark: #060610;
-  --bg-card: #0D0D1A;
-  --bg-card-hover: #151528;
+  --accent: #A0A8B8;
+  --accent-bright: #D0D4DC;
 
-  --text-primary: #E0E0F0;
-  --text-secondary: #8888AA;
-  --text-muted: #555570;
+  --bg-dark: #0A0A10;
+  --bg-card: #111118;
+  --bg-card-hover: #181820;
 
-  --success: #39FF14;
-  --danger: #FF3366;
-  --warning: #FFD93D;
-  --red: #FF3B30;
+  --text-primary: #D8D8E0;
+  --text-secondary: #808090;
+  --text-muted: #505060;
+
+  --success: #A0B8A0;
+  --danger: #C06060;
+  --warning: #B8A870;
+  --red: #C05050;
 
   --pixel-border: 4px;
 }
@@ -43,7 +46,7 @@ body {
   color: var(--text-primary);
   font-family: 'Space Mono', monospace;
   overflow-x: hidden;
-  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Crect width='8' height='8' x='12' y='12' fill='%2339FF14'/%3E%3C/svg%3E"), auto;
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Crect width='8' height='8' x='12' y='12' fill='%23C0C0C8'/%3E%3C/svg%3E"), auto;
 }
 
 h1, h2, h3 {

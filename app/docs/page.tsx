@@ -9,7 +9,7 @@ export default function DocsPage() {
     {
       icon: Cpu,
       title: 'INTEGRITY SYSTEM',
-      color: '#39FF14',
+      color: '#C0C0C8',
       content: [
         'Clank has a SYSTEM INTEGRITY meter from 0-100%',
         'Successful operations increase integrity',
@@ -20,7 +20,7 @@ export default function DocsPage() {
     {
       icon: Zap,
       title: 'OPERATING MODES',
-      color: '#66FF44',
+      color: '#D8D8E0',
       content: [
         'OPTIMAL (80-100%): Precision targeting, low risk',
         'STABLE (60-79%): Balanced protocol execution',
@@ -32,7 +32,7 @@ export default function DocsPage() {
     {
       icon: Target,
       title: 'SCAN PROTOCOL',
-      color: '#39FF14',
+      color: '#C0C0C8',
       content: [
         'Monitors new tokens on Pump.fun in real-time',
         'Analyzes market cap, liquidity, holder distribution',
@@ -66,7 +66,7 @@ export default function DocsPage() {
     {
       icon: Gift,
       title: 'BUYBACK & BURN',
-      color: '#39FF14',
+      color: '#C0C0C8',
       content: [
         'Revenue accumulates in the protocol treasury',
         'Automated buyback triggers at threshold',
@@ -81,7 +81,7 @@ export default function DocsPage() {
       <Link
         href="/"
         className="inline-flex items-center gap-2 mb-8 hover:opacity-80 transition"
-        style={{ fontFamily: "'Press Start 2P', cursive", color: '#39FF14', fontSize: '12px' }}
+        style={{ fontFamily: "'Press Start 2P', cursive", color: '#C0C0C8', fontSize: '12px' }}
       >
         <ArrowLeft className="w-4 h-4" />
         BACK
@@ -116,9 +116,9 @@ export default function DocsPage() {
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
           {[
-            { label: 'PUMP.FUN\nTOKENS', color: '#39FF14' },
-            { label: 'SCAN\nPROTOCOL', color: '#66FF44' },
-            { label: 'CLANK\nBRAIN', color: '#39FF14' },
+            { label: 'PUMP.FUN\nTOKENS', color: '#C0C0C8' },
+            { label: 'SCAN\nPROTOCOL', color: '#D8D8E0' },
+            { label: 'CLANK\nBRAIN', color: '#C0C0C8' },
             { label: 'TRADE\nEXECUTE', color: '#FFD93D' },
             { label: 'BUYBACK\n& BURN', color: '#FF3366' },
           ].map((step, i) => (
@@ -207,7 +207,7 @@ export default function DocsPage() {
               className="text-center p-3"
               style={{ background: '#151528', boxShadow: '4px 4px 0 rgba(0,0,0,0.5)' }}
             >
-              <div style={{ fontFamily: "'VT323', monospace", color: '#39FF14', fontSize: '18px' }}>
+              <div style={{ fontFamily: "'VT323', monospace", color: '#C0C0C8', fontSize: '18px' }}>
                 {tech.name}
               </div>
               <div style={{ fontFamily: "'Space Mono', monospace", color: '#555570', fontSize: '12px' }}>

@@ -12,8 +12,8 @@ interface StatsCardsProps {
 
 export default function StatsCards({ operatingMode, systemIntegrity, cyclesCompleted, uptime }: StatsCardsProps) {
   const stats = [
-    { label: 'MODE', value: operatingMode, icon: Cpu, color: '#39FF14' },
-    { label: 'INTEGRITY', value: `${systemIntegrity}%`, icon: Shield, color: systemIntegrity >= 60 ? '#39FF14' : '#FF3366' },
+    { label: 'MODE', value: operatingMode, icon: Cpu, color: '#C0C0C8' },
+    { label: 'INTEGRITY', value: `${systemIntegrity}%`, icon: Shield, color: systemIntegrity >= 60 ? '#C0C0C8' : '#FF3366' },
     { label: 'CYCLES', value: cyclesCompleted.toString(), icon: Zap, color: '#FFD93D' },
     { label: 'UPTIME', value: uptime, icon: Clock, color: '#8888AA' },
   ];

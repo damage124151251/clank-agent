@@ -24,7 +24,7 @@ export default function LoadingScreen({ isLoading }: LoadingScreenProps) {
 
       <div className="absolute inset-0 opacity-08"
         style={{
-          backgroundImage: 'linear-gradient(rgba(57, 255, 20, 0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(57, 255, 20, 0.08) 1px, transparent 1px)',
+          backgroundImage: 'linear-gradient(rgba(192, 192, 200, 0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(192, 192, 200, 0.08) 1px, transparent 1px)',
           backgroundSize: '32px 32px'
         }}
       />
@@ -35,12 +35,12 @@ export default function LoadingScreen({ isLoading }: LoadingScreenProps) {
           transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
           className="relative"
         >
-          <div className="absolute inset-0 blur-3xl bg-[#39FF14] opacity-30 rounded-full scale-150" />
+          <div className="absolute inset-0 blur-3xl bg-[#C0C0C8] opacity-30 rounded-full scale-150" />
 
           <div className="relative w-40 h-40 pixel-corners overflow-hidden flex items-center justify-center"
             style={{
-              border: '4px solid #39FF14',
-              boxShadow: '8px 8px 0 rgba(0,0,0,0.8), 0 0 60px rgba(57, 255, 20, 0.3)',
+              border: '4px solid #C0C0C8',
+              boxShadow: '8px 8px 0 rgba(0,0,0,0.8), 0 0 60px rgba(192, 192, 200, 0.3)',
               background: '#0D0D1A'
             }}
           >
@@ -67,8 +67,8 @@ export default function LoadingScreen({ isLoading }: LoadingScreenProps) {
           <h2 style={{
             fontFamily: "'Press Start 2P', cursive",
             fontSize: '14px',
-            color: '#39FF14',
-            textShadow: '0 0 15px rgba(57,255,20,0.5)'
+            color: '#C0C0C8',
+            textShadow: '0 0 15px rgba(192,192,200,0.5)'
           }}>
             BOOTING CLANK...
           </h2>
@@ -83,7 +83,7 @@ export default function LoadingScreen({ isLoading }: LoadingScreenProps) {
         >
           <motion.div
             className="h-full"
-            style={{ background: '#39FF14' }}
+            style={{ background: '#C0C0C8' }}
             initial={{ width: '0%' }}
             animate={{ width: '100%' }}
             transition={{ duration: 1.8, ease: 'easeInOut' }}

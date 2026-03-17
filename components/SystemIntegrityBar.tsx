@@ -8,7 +8,7 @@ interface SystemIntegrityBarProps {
 
 export default function SystemIntegrityBar({ integrity }: SystemIntegrityBarProps) {
   const getColor = () => {
-    if (integrity >= 60) return '#39FF14';
+    if (integrity >= 60) return '#C0C0C8';
     if (integrity >= 30) return '#FFD93D';
     return '#FF3366';
   };
@@ -57,7 +57,7 @@ export default function SystemIntegrityBar({ integrity }: SystemIntegrityBarProp
       >
         <span className="text-[#FF3366]">CRITICAL</span>
         <span className="text-[#FFD93D]">STABLE</span>
-        <span className="text-[#39FF14]">OPTIMAL</span>
+        <span className="text-[#C0C0C8]">OPTIMAL</span>
       </div>
     </div>
   );

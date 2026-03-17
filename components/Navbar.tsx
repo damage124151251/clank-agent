@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Home, BookOpen, Scroll, ExternalLink } from 'lucide-react';
 
@@ -20,28 +21,34 @@ export default function Navbar() {
       animate={{ opacity: 1, y: 0 }}
       className="fixed top-0 left-0 right-0 z-50 p-4"
       style={{
-        background: 'linear-gradient(180deg, rgba(6,6,16,0.95) 0%, rgba(6,6,16,0) 100%)'
+        background: 'linear-gradient(180deg, rgba(10,10,16,0.95) 0%, rgba(10,10,16,0) 100%)'
       }}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3 group">
           <div
-            className="relative w-10 h-10 overflow-hidden flex items-center justify-center"
+            className="relative w-10 h-10 overflow-hidden"
             style={{
-              border: '2px solid #39FF14',
+              border: '2px solid #C0C0C8',
               boxShadow: '3px 3px 0 rgba(0,0,0,0.5)',
-              background: '#0D0D1A'
+              background: '#111118'
             }}
           >
-            <span style={{ fontFamily: "'Press Start 2P', cursive", color: '#39FF14', fontSize: '14px' }}>C</span>
+            <Image
+              src="/clank/clank-logo.png"
+              alt="Clank"
+              fill
+              className="object-cover"
+              style={{ imageRendering: 'pixelated' }}
+            />
           </div>
           <span
             className="hidden md:block"
             style={{
               fontFamily: "'Press Start 2P', cursive",
-              color: '#39FF14',
+              color: '#C0C0C8',
               fontSize: '14px',
-              textShadow: '0 0 10px rgba(57,255,20,0.4)'
+              textShadow: '0 0 10px rgba(192,192,200,0.3)'
             }}
           >
             CLANK
@@ -59,7 +66,7 @@ export default function Navbar() {
                 style={{
                   fontFamily: "'Press Start 2P', cursive",
                   fontSize: '10px',
-                  color: isActive ? '#39FF14' : '#8888AA',
+                  color: isActive ? '#D8D8E0' : '#808090',
                 }}
               >
                 <span className="hidden md:inline">{link.label}</span>
@@ -69,7 +76,7 @@ export default function Navbar() {
                   <motion.div
                     layoutId="navbar-indicator"
                     className="absolute bottom-0 left-0 right-0 h-1"
-                    style={{ background: '#39FF14' }}
+                    style={{ background: '#C0C0C8' }}
                   />
                 )}
               </Link>
@@ -84,9 +91,9 @@ export default function Navbar() {
             style={{
               fontFamily: "'Press Start 2P', cursive",
               fontSize: '10px',
-              color: '#060610',
-              background: '#39FF14',
-              border: '3px solid #2BCC10',
+              color: '#0A0A10',
+              background: 'linear-gradient(135deg, #C0C0C8, #9898A8)',
+              border: '3px solid #808090',
               boxShadow: '4px 4px 0 rgba(0,0,0,0.5)',
             }}
           >

@@ -16,7 +16,7 @@ interface ActivityFeedProps {
 export default function ActivityFeed({ logs }: ActivityFeedProps) {
   const getTypeColor = (type: string) => {
     switch (type) {
-      case 'buyback': return '#39FF14';
+      case 'buyback': return '#C0C0C8';
       case 'alert': return '#FF3366';
       case 'scan': return '#FFD93D';
       case 'system': return '#8888AA';
@@ -40,9 +40,9 @@ export default function ActivityFeed({ logs }: ActivityFeedProps) {
       style={{ borderColor: '#3A3A4A' }}
     >
       <div className="flex items-center gap-2 mb-4">
-        <div className="w-2 h-2 rounded-full status-pulse" style={{ background: '#39FF14' }} />
+        <div className="w-2 h-2 rounded-full status-pulse" style={{ background: '#C0C0C8' }} />
         <span
-          style={{ fontFamily: "'Press Start 2P', cursive", fontSize: '9px', color: '#39FF14' }}
+          style={{ fontFamily: "'Press Start 2P', cursive", fontSize: '9px', color: '#C0C0C8' }}
         >
           ACTIVITY LOG
         </span>
@@ -56,7 +56,7 @@ export default function ActivityFeed({ logs }: ActivityFeedProps) {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: i * 0.05 }}
             className="flex items-start gap-2 py-1.5 border-b"
-            style={{ borderColor: 'rgba(57,255,20,0.06)' }}
+            style={{ borderColor: 'rgba(192,192,200,0.06)' }}
           >
             <span
               className="shrink-0 px-1.5 py-0.5 text-xs"
