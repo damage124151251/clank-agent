@@ -1,5 +1,9 @@
 # CLANK
 
+<p align="center">
+  <img src="public/clank/clank-logo.png" width="200" alt="Clank" />
+</p>
+
 > the error became the agent
 
 ---
