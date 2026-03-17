@@ -47,7 +47,7 @@ Next.js 14 / Tailwind / Framer Motion / Vercel
 
 ## Links
 
-[Site](https://clank-site-five.vercel.app) / [Pump.fun](https://pump.fun) / Twitter: coming soon
+[Site](https://clank-site-five.vercel.app) / [Pump.fun](https://pump.fun) / [Twitter](https://x.com/ClankAgent_)
 
 ---
 

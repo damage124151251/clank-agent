@@ -187,7 +187,7 @@ export default function Home() {
 
                 <div className="flex gap-3">
                   <a
-                    href="https://x.com"
+                    href="https://x.com/ClankAgent_"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-4 py-2 transition-all hover:translate-y-[-2px]"
